@@ -1,326 +1,573 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <title>cv_card</title>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-                  integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-            <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
-            <link rel="stylesheet" href="style/main.css" type="text/css" media="all">
-        </head>
-        <body>
-             <div class="container pull-center">
-                 <!-- ---------- Navigation ---------- -->
-                <div class="row">
-                    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-                        <div class="container">
-                            <div class="navbar-header">
-                                <a href="#" class="navbar-brand">Oleksandr Sayuk</a>
-                                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <div class="collapse navbar-collapse navHeaderCollapse" id="myNavbar">
-                                <ul class="nav navbar-nav navbar-right" id="gold">
-                                    <li class="active"><a href="#hed-image">Home</a></li>
-                                    <li class="navno"><a href="#2about">About me</a></li>
-                                    <li class="navno"><a href="#3expirience">Expirience</a></li>
-                                    <li class="navno"><a href="#4education">Education</a></li>
-                                    <li class="navno"><a href="#5skills">Skills</a></li>
-                                    <li class="navno"><a href="#6contact">Contact</a></li>
-                                </ul>
-                            </div> <!-- collapse -->
-                        </div>
-                    </nav>
-                </div> <!-- row -->
-                        <!-- ---------- Image header-background ---------- -->
-                            <div id="hed-image">
-                                <h1> Hello, I’m OLEXANDR SAYUK </h1>
-                            </div>
-                        <!-- ---------- CV---------- -->
-                        <!-- ---------- ABOUT ME---------- -->
-                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                                    <section  class="block block-about" id="2about">
-                                                <div  class="container-fluid">
-                                                    <div class="row">
-                                                        <div class="page-header">
-                                                            <h2 class="text-center">ABOUT ME</h2>
-                                                         </div>
-                                                    </div>
-                                                </div>
-                                    </section>
-                                                <div class="row">
-                                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
-                                                                <img src="img/foto_cv.jpg" alt="foto_cv.jpg">
-                                                            </div>
-                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
-                                                            <p>Responsible for project development and management, recognized as responsible and solution finder among colleagues,
-                                                            management and clients. Organized, hard-working, can find solution and resolve problem quickly even without assistance
-                                                            I thrive in a challenging environment and am a strong believer that thorough communication, attention to detail
-                                                            and possessing a positive attitude are vital keys to success. Leader by nature, willing to bring my knowledge and
-                                                            energy to my new employer. </p>
-                                                    </div>
-                                                </div> <!--Section About me-->
+<head>
+    <title>cv_card</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
+    <!--link rel="stylesheet" href="bootstrap/style/bootstrap.css" type="text/css" media="all">  -->
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style/main.css" type="text/css" media="all">
+    <script>
+        var allhiden=function(sect) {
+            document.getElementById('hed-image').style.display ='none';
+            document.getElementById('CV').style.display ='none';
+            document.getElementById('contact').style.display ='none';
+            document.getElementById(sect).style.display ='block';
+        }
+    </script>
+</head>
 
-
-                                    <!-- ---------- EXPIRIENCE---------- -->
-                                    <section class="block block-expirience" id="3expirience">
-
-                                                <div class="container-fluid">
-                                                        <div class="row">
-                                                            <div class="page-header">
-                                                                <h2 class="text-center">EXPERIENCE</h2>
-                                                            </div>
-                                                        </div>
-                                                </div>
-                                                        <div class="row">
-                                                                <p>Head of public order, objects of state and municipal property VII/2015 - till now<br>
-                                                                  Lviv council of the city, Department of Housing and Infrastructure<br>
-                                                                  Maintenance of public order in places designated by city council, mayor, executive committee,
-                                                                  taking measures of public security in the city; сooperation with local authorities, control and coordination
-                                                                  of the municipal enterprise. </p>
-                                                              <br>
-                                                              <p>Deputy Head   I/2015 – VII/2015<br>
-                                                                  “COMPANY “RISE” ltd.<br>
-                                                                  Sales: the tactical (medium-term) and operational planning of sales internet services; the develop targeted
-                                                                  programs, the definition of perspective directions of the Company; correction and approval of the Plan of
-                                                                  sales for the quarter, month; analysis of market communication and market development prospects; exercise
-                                                                  executive functions; decision on participation in specialized exhibitions, the organization of their preparation
-                                                                  and implementation.<br>
-                                                                  Cash management: the approval deadlines and budget travel, entertainment expenses, by organizing exhibitions,
-                                                                  meetings;  Accounting of final sales</p>
-                                                              <br>
-                                                              <p>Assistant Expert – Appraiser   IV/2013 – I/2015<br>
-                                                                  "Profocinka" ltd.<br>
-                                                                  Uses all the known methods of property valuation, consulting and organizing the customer on the current legislation.
-                                                              </p>
-                                                              <br>
-                                                              <p>Economist   III/2012 – IV/2013<br>
-                                                                  Ukrainian-American JV «AS - Renaissance»<br>
-                                                                  Working with source data for drafting economic and financial, production and commercial activities
-                                                                  (business plan) of the company. Сalculations of material, labor and financial costs, Economic analysis
-                                                                  of business enterprise. Registration materials for contracts, tracking deadlines contractual obligations.
-                                                                  Preparing periodic reports at specified time. Compliance with legislation on labor protection.</p>
-                                                              <br>
-                                                              <p>Intern   XI/2011 – IV/2013<br>
-                                                                  "Profocinka" ltd.<br>
-                                                                  Valuation of property, corporate law, intellectual property, generating reports, conducting valuation
-                                                                  procedures, property market analyst, consulting and organizing the customer, the organization of activities
-                                                                  in the marketing of the company.</p>
-                                                              <br>
-                                                              <p>Intern   III/2011 – V/2011 <br>
-                                                                  "Diamantbank" PJSC headquarters of the city <br>
-                                                                  Tax reporting and organization of banking work in Legal, Operations department, Economics department,
-                                                                  Credit department , financial monitoring.</p>
-                                                              <br>
-                                                              <p>Chairman of the student government   IX/2009 – V/2011<br>
-                                                                  Lviv State Academy of Finance<br>
-                                                                  A member of the student government of the academy. Acting on Legal - educational activities of the Academy,
-                                                                  Deputy Chairman of the student government.</p>
-                                                              <br>
-                                                              <p>Programmer   VI/2007–VII 2007<br>
-                                                                  Ukrainian-American JV «AS - Renaissance»<br>
-                                                                  Web design and web seit сreation and database administration, Support Networking Software. </p>
-                                                              <br>
-                                                              <p>Pupils exchange    2006<br>
-                                                                  School program Ukraine - Poland<br>
-                                                                  Studied in a Polish school, lived in a local family. International exchange program participant.
-                                                                  Duration 3 month.</p>
-                                                        </div>
-
-                                    </section> <!--Section Expirience-->
-                                            <!-- ---------- EDUCATION---------- -->
-                            <section  class="block block-education" id="4education">
-                                                                    <div  class="container-fluid">
-                                                                        <div class="row">
-                                                                            <div class="page-header">
-                                                                                <h2 class="text-center">EDUCATION</h2>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-sm-6 col-md-4">
-                                                                            <div class="thumbnail">
-                                                                                <img class="picsmal" src="img/education/english.png" alt="english.png">
-                                                                                <img class="picbig" src="img/education/english.png" alt="english.png">
-                                                                                <div class="caption">
-                                                                                    <h3>Courses foreign language</h3>
-                                                                                    <p>Foreign language training center of the learning system.    XII/2013–II/2014<br>
-                                                                                    Kyiv, Ukraine.<br>
-                                                                                    "Coaching English, the course – Business English Course.</p>
-                                                                                    <p><a href="http://englisher.com.ua/english-courses/kyiv/english-coaching" class="btn btn-primary" role="button">BEC</a></p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-sm-6 col-md-4">
-                                                                            <div class="thumbnail">
-                                                                                <img class="picsmal" src="img/education/estimator.png" alt="estimator.png">
-                                                                                <img class="picbig" src="img/education/estimator.png" alt="estimator.png">
-                                                                                <div class="caption">
-                                                                                    <h3>Courses for estimators</h3>
-                                                                                    <p>International Institute of Business.     III/2012-III/2013<br>
-                                                                                        Kyiv, Ukraine.<br>
-                                                                                        Basic training courses for estimators in the direction Valuation of in-kind, the following specializations:
-                                                                                        1.1 Evaluation of real things (property, estate), including land and property rights to them;
-                                                                                        1.2 Estimation of machinery and equipment; 1.3 Estimation of wheeled TC; 1.7 Estimation of  movables,
-                                                                                        except for those classified as machinery, equipment, wheeled TC, aircraft, shipping agents, and those
-                                                                                        of cultural value.</p>
-                                                                                    <p><a href="http://iib.com.ua/ua/" class="btn btn-primary" role="button">MBA</a></p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                <div class="col-sm-6 col-md-4">
-                                    <div class="thumbnail">
-                                                                                <img class="picsmal" src="img/education/ldfa.jpg" alt="ldfa.jpg">
-                                                                                <img class="picbig" src="img/education/ldfa.jpg" alt="ldfa.jpg">
-                                                                                <div class="caption">
-                                                                                    <h3>L’viv State Academy of Finance</h3>
-                                                                                    <p>Bachelor and Master degree in Finance in Enterprises.  IX/2007 – V/2012<br>
-                                                                                        L’viv State Academy of Finance. Lviv, Ukraine.</p>
-                                                                                    <p><a href="http://www.lnu.edu.ua/about/faculties/" class="btn btn-primary" role="button">LDFA</a></p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </section> <!-- ---------- Section education---------- -->
-                                            <!-- ---------- SKILLS---------- -->
-                            <section  class="block block-skills" id="5skills">
-                                                                                <div  class="container-fluid">
-                                                                                    <div class="row">
-                                                                                        <div class="page-header">
-                                                                                            <h2 class="text-center">SKILLS</h2>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-
-
-                                                                                <h5>Language Skills</h5>
-                                                                                <p>Ukrainian– native, Polish– fluent, Russian– fluent, English– Рre-Intermediate, German-elementary.<br> </p>
-                                                                                <h5>Programming Skills</h5>
-                                                                                <p>Adobe Photoshop CS, ArchiCad,  Automatical Programm Estimator, Bank System 2, HTML Editor, NotePad ++;
-                                                                                    WebStorm; 1C Accounting. </p>
-                                                                                <h5>Courses</h5>
-                                                                                <p>Excel Advanced, Autoсourses (category A. B ( traffic-bound 230 000 km))</p>
-                                                                                <h5>Leisure activities</h5>
-
-                                                                                    <div class="media">
-                                                                                        <div class="media-left">
-                                                                                            <a href="#">
-                                                                                                <img class="media-object" src="img/" alt="...">
-                                                                                            </a>
-                                                                                        </div>
-                                                                                        <div class="media-body">
-                                                                                            <h4 class="media-heading">Media heading</h4>
-                                                                                            ...
-                                                                                        </div>
-                                                                                    </div>
-                                                                                <p>Travel; Writing; Reading (business literature); Self-development; Participating in different trainings
-                                                                                    (business, sales, speaking, china-business, investments, market, research, psychology, travels),
-                                                                                    coaching programs; sport activities; business and market analytics.</p>
-                                                                                <div class="row">
-                                                                                    <div style="padding-right: 10px">
-                                                                                        <a href="img/official_oleksandr_sayuk_cv.pdf" class="navbar-btn btn-danger btn pull-right" download>Download CV</a>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                        </section> <!-- ---------- Section skills---------- -->
-
-                                                                                                <!-- ---------- CONTACT---------- -->
-                                                                                            <section  class="block block-contact" id="6contact">
-                                                                                                    <div  class="container-fluid">
-                                                                                                        <div class="row">
-                                                                                                            <div class="page-header">
-                                                                                                                <h2 class="text-center">CONTACT</h2>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                        <div style="float: left; padding-left:30px">
-                                                                                                            <p>
-                                                                                                                Name: Oleksandr Sayuk <br>
-                                                                                                                Birth of date: 29 March 1990<br>
-                                                                                                                Address:18 Kolomyiska st. app. 45, 79049 Lviv<br>
-                                                                                                                Mobile: +38 095 831 69 85<br>
-                                                                                                                E-mail: so18-45@yandex.ru</p>
-                                                                                                        </div>
-
-                                                                                                            <ul class="social">
-                                                                                                                <li>
-                                                                                                                    <a class="face" href="https://www.facebook.com/sania.sayuk"><img src="img/icons/Facebook.png" height="45" width="45" ></a>
-                                                                                                                </li>
-                                                                                                                <li>
-                                                                                                                    <a class="sky" href="#"><img src="img/icons/skype.png" height="45" width="45" ></a>
-                                                                                                                </li>
-                                                                                                                <li>
-                                                                                                                    <a class="you" href="#"><img src="img/icons/YouTube.png" height="45" width="45" ></a>
-                                                                                                                </li>
-                                                                                                                <li>
-                                                                                                                    <a class="lind" href="https://ua.linkedin.com/in/oleksandr-leon-3a099593"><img src="img/icons/LinkedIn.png" height="45" width="45" ></a>
-                                                                                                                </li>
-                                                                                                            </ul>
-
-                                                                                                            <div class="container">
-                                                                                                                <div class="row">
-                                                                                                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" >
-                                                                                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.032832354466!2d24.
-                                                                                                                029397073381517!3d49.84184060822302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6da
-                                                                                                                f2238f7%3A0x657ac2a6cdcf320b!2z0KDQsNGC0YPRiNCwLCDQv9C7LiDQoNC40L3QvtC6LCAxLCDQm9GM0LLRltCyLCDQm
-                                                                                                                9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDc5MDAw!5e0!3m2!1suk!2sua!4v1457088589192"
-                                                                                                                                width="450" height="300" frameborder="0" style="border:0" allowfullscreen>
-                                                                                                                        </iframe>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-
-                                                                                                                            <div class="row">
-                                                                                                                                <div class="col-sm-6 col-sm-offset-3">
-                                                                                                                                    <div class="page-header">
-                                                                                                                                        <a name="WRITE-ME"></a>
-                                                                                                                                        <h3 class="text-center">Write me</h3>
-                                                                                                                                        <p></p>
-                                                                                                                                    </div>
-                                                                                                                                    <form>
-
-                                                                                                                                        <div class="form-group">
-                                                                                                                                            <label for="name">Name</label>
-                                                                                                                                            <input type="text" class="form-control" name="name" placeholder="Name">
-                                                                                                                                        </div>
-                                                                                                                                        <div class="form-group">
-                                                                                                                                            <label for="email">Email</label>
-                                                                                                                                            <input type="email" class="form-control" name="email" placeholder="E-mail">
-                                                                                                                                        </div>
-                                                                                                                                        <div class="form-group">
-                                                                                                                                            <textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
-                                                                                                                                        </div>
-                                                                                                                                        <button type="submit" class="btn btn-lg btn-block">Send message</button>
-                                                                                                                                    </form>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                            </section><!-- ---------- Section contact---------- -->
-                            <!-- ---------- Footer---------- -->
-                            <section class="footers">
-
-                                <div class="navbar navbar-default navbar-static-bottom">
-                                    <p class="navbar-text pull-left">I hereby express my consent to the processing and usage of my own personal data contained in this proposal
-                                        for the purposes of the recruitment process (in accordance with Law of Ukraine "On Protection of Personal Data»
-                                        dated 1.06.2010 ( Dz.U. from 2010, Nr 34, p. 481 with further amendments). I acknowledge that I have the right to
-                                        inspect the contents of my data and correct them. </p>
-                                </div>
-                                <footer class="row" style="background-color: #f5f5f5;">
-                                    <div class="pull-left" style="padding: 10px">
-                                        <p>All rights reserved 2016 &copy  Olexandr Sayuk</p>
-                                    </div>
-                                </footer>
-
-                            </section> <!-- ---------- Section footer---------- -->
-                        </div> <!-- styles col -->
-                                                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-                                                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-                                                 <script src="style/function.js"></script>
-
+<body>
+    <div class="container pull-left">
+        
+        <!-- =========================================== Menu ============== -->
+        <section class="row">
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand" id="lok_brand"
+                           onclick="allhiden('hed-image')">Oleksandr Sayuk</a>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li onclick="allhiden('CV')"><a href="#">CV</a></li>
+                            <li onclick="allhiden('contact')"><a href="#">Contact</a></li>
+                        </ul>
+                    </div> <!-- collapse -->
                 </div>
-        </body>
+            </nav>
+        </section> <!-- menu -->
+
+        <!--  ========================================= hed-image ========== -->
+        <section id="hed-image" class="row">
+            <h1> Hello, I’m OLEXANDR SAYUK </h1>
+        </section>
+
+        <!-- =============================================  CV  ============ -->
+        <section id="CV" class="row">   
+            
+            <!--   -------------------------------------- aside  ----------- -->
+            <aside class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <div  class="head_section" style="top:280px;">
+                    <h4 class="head_section">Sections CV</h4>
+                    <ul class="nav nav-tabs nav-stacked" role="tablist">
+                      <li class="active">
+                          <a href="#aboutme"    data-toggle="tab">ABOUT ME</a>
+                      </li>
+                      <li><a href="#experience" data-toggle="tab">EXPERIENCE</a></li>
+                      <li><a href="#education"  data-toggle="tab">EDUCATION</a></li>
+                      <li><a href="#key-skills" data-toggle="tab">KEY-SKILLS</a></li>
+                    </ul>
+                </div>
+                
+                <div class="pull-right" style="padding-top:50px;">
+                        <a href="img/official_oleksandr_sayuk_cv.pdf" 
+                           class="btn btn-success btn-md" 
+                           download>Download CV
+                        </a>
+                </div>   
+            </aside>     
+
+            <!-- ---------------------------------------- Sections CV ------- -->
+            <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                <div class="tab-content">  
+                    
+                    <!--   ------------------------------ about me --------- --> 
+                    <div id="aboutme" role="tabpanel" class="row tab-pane active">
+
+                        <h3 class="head_section">ABOUT ME</h3>
+                        
+                        <div class="row">
+                            <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+                                <img id="fotocv" src="img/foto_cv.jpg" 
+                                     alt="foto_cv.jpg">
+                            </div>
+                            <div class="col-lg-8 col-md-7 col-sm-6 col-xs-12">
+                                    <p>Responsible for project development and management, recognized as responsible and solution finder among colleagues,
+                                    management and clients. Organized, hard-working, can find solution and resolve problem quickly even without assistance
+                                    I thrive in a challenging environment and am a strong believer that thorough communication, attention to detail
+                                    and possessing a positive attitude are vital keys to success. Leader by nature, willing to bring my knowledge and
+                                    energy to my new employer. </p>
+                            </div>
+                        </div>
+                    </div> <!-- aboutme -->
+                        
+                    <!--   ------------------------------ experience ------- --> 
+                    <div id="experience" role="tabpanel" class="tab-pane">
+                    
+                        <h3 class="head_section">EXPERIENCE:</h3>
+                      
+                        <div class="col-md-3 col-sm-5 btexp">
+                            <button class="btn btn-info btn-lg" type="button" 
+                                    data-toggle="modal" data-target="#exp9">
+                                VII/2015 - till now<br>
+                                Head of public order,<br>
+                               objects of state and <br>
+                                municipal property<br>
+                                Lviv council of the city
+                            </button>
+                        </div> 
+                        <div id="exp9" class="modal fade">
+                            <div class=" modal-dialog modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">×</button>
+                                    <h4 class="modal-title">
+                                        Head of public order, objects of state and municipal property - VII/2015 - till now
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p> Lviv council of the city, Department of Housing and Infrastructure<br>
+                                        Maintenance of public order in places designated by city council, mayor, executive committee,
+                                        taking measures of public security in the city; сooperation with local authorities, control and coordination
+                                        of the municipal enterprise. </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>                
+
+                        <div class="col-md-1 col-sm-1"></div>  
+
+                        <div class="col-md-3 col-sm-5 btexp">
+                            <button class="btn btn-info btn-lg" type="button" 
+                                data-toggle="modal" data-target="#exp8">
+                                IV/2015 – VII/2015<br>
+                                Deputy Head<br>
+                                “COMPANY “RISE” ltd.
+                            </button>
+                        </div>
+                        <div id="exp8" class="modal fade">
+                            <div class=" modal-dialog modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">×</button>
+                                    <h4 class="modal-title">
+                                        Deputy Head - IV/2015 – VII/2015
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p> “COMPANY “RISE” ltd.  <br>
+                                        Sales: the tactical (medium-term) and operational planning
+                                        of sales internet services; the develop targeted programs,
+                                        the definition of perspective directions of the Company;
+                                        correction and approval of the Plan of sales for the quarter, month;
+                                        analysis of market communication and market development prospects;
+                                        exercise executive functions; decision on participation in specialized exhibitions,
+                                        the organization of their preparation and implementation.
+                                        Cash management: the approval deadlines and budget travel, entertainment expenses,
+                                        by organizing exhibitions, meetings;  Accounting of final sales
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 col-sm-1"></div>  
+
+                        <div class="col-md-3 col-sm-5 btexp">
+                            <button class="btn btn-info btn-lg" type="button" 
+                                data-toggle="modal" data-target="#exp7">
+                                IV/2013 – I/2015<br>
+                                Assistant Expert-Appraiser<br>
+                                "Profocinka" ltd.
+                            </button>
+                        </div>
+                        <div id="exp7" class="modal fade">
+                            <div class=" modal-dialog modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">×</button>
+                                    <h4 class="modal-title">
+                                        Assistant Expert – Appraiser - V/2013 – I/2015
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p> "Profocinka" ltd.<br>
+                                        Uses all the known methods of property valuation, consulting and organizing
+                                        the customer on the current legislation. </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-1 col-sm-1"></div>
+                     
+                        <div class="col-md-3 col-sm-5 btexp">
+                            <button class="btn btn-info btn-lg" type="button" 
+                                data-toggle="modal" data-target="#exp6">
+                                III/2012 – IV/2013<br>
+                                Economist<br>
+                                Ukrainian-American<br>
+                                JV «AS - Renaissance»
+                            </button>
+                        </div>
+                        <div id="exp6" class="modal fade">
+                            <div class=" modal-dialog modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">×</button>
+                                    <h4 class="modal-title">
+                                        Economist III/2012 – IV/2013
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p> Ukrainian-American JV «AS - Renaissance»<br>
+                                        Working with source data for drafting economic and financial, production and
+                                        commercial activities (business plan) of the company. Сalculations of material,
+                                        labor and financial costs, Economic analysis of business enterprise.
+                                        Registration materials for contracts, tracking deadlines contractual obligations.
+                                        Preparing periodic reports at specified time. Compliance with legislation on
+                                        labor protection. </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 col-sm-1"></div>
+
+                        <div class="col-md-3 col-sm-5 btexp">
+                            <button class="btn btn-info btn-lg" type="button" 
+                                data-toggle="modal" data-target="#exp5">
+                                XI/2011 – IV/2013<br>
+                                Intern<br>
+                                "Profocinka" ltd.
+                            </button>
+                        </div>
+                        <div id="exp5" class="modal fade">
+                            <div class=" modal-dialog modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">×</button>
+                                    <h4 class="modal-title">
+                                        Intern - XI/2011 – IV/2013
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>"Profocinka" ltd.<br>
+                                        Valuation of property, corporate law, intellectual property, generating reports,
+                                        conducting valuation procedures, property market analyst, consulting and
+                                        organizing the customer, the organization of activities in the marketing of
+                                        the company. </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 col-sm-1"></div>  
+
+                        <div class="col-md-3 col-sm-5 btexp">
+                            <button class="btn btn-info btn-lg" type="button" 
+                                data-toggle="modal" data-target="#exp4">
+                                III/2011 – V/2011 <br>
+                                Intern<br>
+                                "Diamantbank" PJSC<br>
+                                headquarters of the city
+                            </button>
+                        </div>
+                        <div id="exp4" class="modal fade">
+                            <div class=" modal-dialog modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">×</button>
+                                    <h4 class="modal-title">
+                                        Intern - III/2011 – V/2011
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>"Diamantbank" PJSC headquarters of the city<br>
+                                        Tax reporting and organization of banking work in Legal, Operations department,
+                                        Economics department, Credit department , financial monitoring. </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 col-sm-1"></div>
+
+                        <div class="col-md-3 col-sm-5 btexp">
+                            <button class="btn btn-info btn-lg" type="button" 
+                                data-toggle="modal" data-target="#exp3">
+                                IX/2009 – V/2011<br>
+                                Chairman of the student<br>
+                                government<br>
+                                Lviv<br>
+                                State Academy of Finance
+                            </button>
+                        </div>
+                        <div id="exp3" class="modal fade">
+                            <div class=" modal-dialog modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">×</button>
+                                    <h4 class="modal-title">
+                                        Chairman of the student government - IX/2009 – V/2011
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Lviv State Academy of Finance<br>
+                                        A member of the student government of the academy. Acting on Legal -
+                                        educational activities of the Academy, Deputy Chairman of the student
+                                        government. </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 col-sm-1"></div>
+
+                        <div class="col-md-3 col-sm-5 btexp">
+                            <button class="btn btn-info btn-lg" type="button" 
+                                data-toggle="modal" data-target="#exp2">
+                                VI/2007–VII - 2007<br>
+                                Programmer<br>
+                                Ukrainian-American<br>
+                                JV «AS - Renaissance»
+                            </button>
+                        </div>
+                        <div id="exp2" class="modal fade">
+                            <div class=" modal-dialog modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">×</button>
+                                    <h4 class="modal-title">
+                                        Programmer - VI/2007–VII 2007
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Ukrainian-American JV «AS - Renaissance»<br>
+                                        Web design and web seit сreation and database administration,
+                                        Support Networking Software. </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1 col-sm-1"></div> 
+
+                        <div class="col-md-3 col-sm-5 btexp">
+                            <button class="btn btn-info btn-lg" type="button" 
+                                data-toggle="modal" data-target="#exp1">
+                                2006<br>
+                                Pupils exchange school<br>
+                                program Ukraine-Poland
+                            </button>
+                        </div>
+                        <div id="exp1" class="modal fade">
+                            <div class=" modal-dialog modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">×</button>
+                                    <h4 class="modal-title">
+                                        Pupils exchange school program Ukraine-Poland - 2006
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Poland<br>
+                                        Studied in a Polish school, lived in a local family. International exchange
+                                        program participant. Duration 3 month.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                                            
+                    </div><!--id="experience" --> 
+                    <!--  ------------------------------- education -------- -->
+                    <div id="education" role="tabpanel" class="row tab-pane">
+                        <h3 class="head_section">EDUCATION:</h3>
+
+                        <div class="row">
+
+                            <div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img class="picsmal" src="img/education/english.png" alt="english.png">
+                                    <img class="picbig"  src="img/education/english.png" alt="english.png">
+                                    <div class="caption">
+                                        <h3>Courses foreign language</h3>
+                                        <p>Foreign language training center of the learning system.    XII/2013–II/2014<br>
+                                        Kyiv, Ukraine.<br>
+                                        "Coaching English, the course – Business English Course.</p>
+                                        <p><a href="http://englisher.com.ua/english-courses/kyiv/english-coaching" class="btn btn-primary" role="button">GO to site</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img class="picsmal" src="img/education/estimator.png" alt="estimator.png">
+                                    <img class="picbig" src="img/education/estimator.png" alt="estimator.png">
+                                    <div class="caption">
+                                        <h3>Courses for estimators</h3>
+                                        <p>International Institute of Business.     III/2012-III/2013<br>
+                                            Kyiv, Ukraine.<br>
+                                            Basic training courses for estimators in the direction Valuation of in-kind, the following specializations:
+                                            1.1 Evaluation of real things (property, estate), including land and property rights to them;
+                                            1.2 Estimation of machinery and equipment; 1.3 Estimation of wheeled TC; 1.7 Estimation of  movables,
+                                            except for those classified as machinery, equipment, wheeled TC, aircraft, shipping agents, and those
+                                            of cultural value.</p>
+                                        <p><a href="http://iib.com.ua/ua/" class="btn btn-primary" role="button">GO to site</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img class="picsmal" src="img/education/ldfa.jpg" alt="ldfa.jpg">
+                                    <img class="picbig" src="img/education/ldfa.jpg" alt="ldfa.jpg">
+                                    <div class="caption">
+                                        <h3>L’viv State Academy of Finance</h3>
+                                        <p>Bachelor and Master degree in Finance in Enterprises.  IX/2007 – V/2012<br>
+                                            L’viv State Academy of Finance. Lviv, Ukraine.</p>
+                                        <p><a href="http://www.lnu.edu.ua/about/faculties/" class="btn btn-primary" role="button">GO to site</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Section education -->
+                    
+                    <!-- ---------------------------------- skills  -------- -->
+                    <div id="key-skills" role="tabpanel" class="row tab-pane">
+                        <h3 class="head_section">KEY SKILLS</h3>
+
+                        <h3 class="paddingtop50">Language:</h3>
+                    <div>
+                        <ul class="flags" >
+                                <li><img src="img/skills/foreign_language/ukraine_flag.png" alt="ukraine_flag.png"><p>native</p></li>
+                                <li><img src="img/skills/foreign_language/united_flag.png" alt="united_flag.png"><p>pre-intermediate</p></li>
+                                <li><img src="img/skills/foreign_language/germany_flag.png" alt="germany_flag.png"><p>elementary</p></li>
+                                <li><img src="img/skills/foreign_language/poland_flag.png" alt="poland_flag.png"><p>fluent</p></li>
+                                <li><img src="img/skills/foreign_language/russia_flag.png" alt="russia_flag.png"><p>fluent</p></li>
+                        </ul>
+                     </div>
+                <h3 class="paddingtop50">Programming Skills</h3>
+                  <p>Adobe Photoshop CS, ArchiCad,  Automatical Programm Estimator, Bank System 2, HTML Editor, NotePad ++;
+                      WebStorm; 1C Accounting. </p>
+                  <h3 class="paddingtop50">Courses</h3>
+                  <p>Excel Advanced, Autoсourses (category A. B ( traffic-bound 230 000 km))</p>
+
+
+                  <h3 class="paddingtop50">Leisure activities</h3>
+                  <p>Travel; Writing; Reading (business literature); Self-development; Participating in different trainings
+                      (business, sales, speaking, china-business, investments, market, research, psychology, travels),
+                      coaching programs; sport activities; business and market analytics.</p>
+                    </div>
+                </div><!-- tab-content -->
+            </div><!--    col-lg-9  -->
+        </section><!-- CV  -->
+        
+        <!--   =========================================== CONTACT ======== -->
+        <section id="contact" class="row">
+            <h3 class="head_section">CONTACT</h3>
+            
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div id="widthiframe" class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <div id="address" class="row">
+                            <div style="float: left; padding-left:30px">
+                                
+                                    Name: Oleksandr Sayuk <br>
+                                    Birth of date: 29 March 1990<br>
+                                    Address:18 Kolomyiska st. app. 45, 79049 Lviv<br>
+                                    Mobile: +38 095 831 69 85<br>
+                                    E-mail: so18-45@yandex.ru
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <ul class="social">
+                            <li>
+                                <a class="face" href="https://www.facebook.com/sania.sayuk"><img src="img/icons/Facebook.png" height="45" width="45" ></a>
+                            </li>
+                            <li>
+                                <a class="sky" href="#"><img src="img/icons/skype.png" height="45" width="45" ></a>
+                            </li>
+                            <li>
+                                <a class="you" href="#"><img src="img/icons/YouTube.png" height="45" width="45" ></a>
+                            </li>
+                            <li>
+                                <a class="lind" href="https://ua.linkedin.com/in/oleksandr-leon-3a099593"><img src="img/icons/LinkedIn.png" height="45" width="45" ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- row -->
+                <div>
+                        <iframe id="mapframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.032832354466!2d24.
+                            029397073381517!3d49.84184060822302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6da
+                            f2238f7%3A0x657ac2a6cdcf320b!2z0KDQsNGC0YPRiNCwLCDQv9C7LiDQoNC40L3QvtC6LCAxLCDQm9GM0LLRltCyLCDQm
+                            9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDc5MDAw!5e0!3m2!1suk!2sua!4v1457088589192"
+                            width="300" style="border:0" allowfullscreen>
+                        </iframe>
+                </div>
+
+            </div><!-- col-lg-6 -->
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">
+                <div id="writeme" class="row">
+
+                    <h4 class="text-center">Write me</h4>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" name="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="center-block">Send message</button>
+                    </form>
+
+                    I hereby express my consent to the processing and usage of my own personal data contained in this proposal
+                        for the purposes of the recruitment process (in accordance with Law of Ukraine "On Protection of Personal Data»
+                        dated 1.06.2010 ( Dz.U. from 2010, Nr 34, p. 481 with further amendments). I acknowledge that I have the right to
+                        inspect the contents of my data and correct them. 
+                </div><!-- row -->
+    
+            </div><!-- col-lg-6 -->
+            
+            <script>
+                
+                var widthifr=document.getElementById('widthiframe').offsetWidth;
+                var heigthifr=document.getElementById('writeme').offsetHeight -
+                        document.getElementById('address').offsetHeight;
+                if(heigthifr>0){
+                    window.mapframe.setAttribute("width", widthifr);
+                    window.mapframe.setAttribute("height", heigthifr);
+                }
+                document.getElementById('contact').style.display ='none';
+            </script>
+            
+        </section>
+        
+        <!--========================================================== footer================-->
+        <div class="navbar-fixed-bottom row-fluid">
+            <div class="navbar-inner">
+                <footer id="footer" class="row">
+                    All rights reserved 2016 &copy  Olexandr Sayuk
+                </footer>  
+            </div>
+        </div>
+    </div><!-- container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
 </html>

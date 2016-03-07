@@ -1,14 +1,13 @@
-#foot {
-    margin: 0;
-}
 body {
     background: white;
 }
 #hed-image {
-    background: url(../img/book.jpg) no-repeat;
+    position: absolute;
+    display:  block;
+    background: url(../img/book.jpg);
+    background-repeat: round;
     width: 100%;
-    height: 665px;
-    padding-top: 15%;
+    height:100%; 
 }
 #hed-image h1 {
     position: absolute;
@@ -16,60 +15,82 @@ body {
     text-align:center;
     right:13%;
     left:0;
-    margin-top:1%;
+    margin-top:12%;
     color: white;
 }
-div img {
-    height: 50%;
-    width: 60%;
+#fotocv {
+    width:  90%;
+    height: 90%;
 }
-#gold a:hover {
-    font-size:150%;
-    font-weight: 600;
-    color: #66512c;
+
+p {
+    text-align: justify;
+    text-indent: 12px;
+    font-family: "Times New Roman", sans-serif;
+    font-size:14pt;
+    letter-spacing: 2px;
+    color:black;
 }
-#2about {
-    padding-top: 50px;
+
+h2,h3,h4 {
+    letter-spacing: 5px;
+    margin: 10px 0 5px 0;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #4D2A20;
 }
+
+.btexp {
+   height: 160px;
+}
+
 .picbig{
     position: absolute;
     width: 0;
     -webkit-transition: width 0.3s linear 0s;
-    transition:width 0.3s linear 0s
+    transition:width 0.3s linear 0s;
     z-index:10;
 }
 .picsmal:hover+.picbig {
     width: 400px;
 }
 
+
 .social{
     display: flex;
+    list-style-type: none;
+}
+.flags{
+    display: flex;
+    list-style-type: none;
 }
 
-p {
-    text-align: justify;
-    text-indent: 20px;
-    font-family: Arial, sans-serif;
-    letter-spacing: 2px;
-    color:black;
+html {
+  position: relative;
+  min-height: 100%;
 }
-div h3 {
-    text-align: center;
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
-
-
-h2,h3,h4 {
-    letter-spacing: 5px;
-    margin: 10px 0 5px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #4D2A20;
+#footer {
+  height: 30px;
+  background-color: #f5f5f5;
+  text-align: center;
 }
 
-
-
-
-
-
+.ramka {
+    border: 1px solid #000;
+}
+#CV {
+display:  none;    
+}
+.head_section {
+    padding-top: 50px;
+    text-align:  center;
+}
+.btexp {
+   height: 160px;
+}
 
 
 
